@@ -39,6 +39,7 @@ public:
 
   double std_a_;        // Process noise std longitudinal acceleration in m/s^2
   double std_yawdd_;	// Process noise std yaw acceleration in rad/s^2
+  MatrixXd Q_;          // Process noise covariance
 
   double std_laspx_;    // Laser measurement noise standard deviation position1 in m
   double std_laspy_;    // Laser measurement noise standard deviation position2 in m
